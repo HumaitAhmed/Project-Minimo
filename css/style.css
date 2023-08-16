@@ -1,0 +1,223 @@
+/* common css start */
+.body{
+	margin: 0;
+    font-family: 'Playfair display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}    
+/* common css end */
+/* header start */
+.header{
+	padding: 25px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	margin-top: 13px;
+	width: 12%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	display: inline-block;
+	padding: 0px 60px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: 0.33s;
+}
+.menu ul li:last child a{
+	margin-right: 0px;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+
+/*weekend start*/
+.weekend{
+	padding: 80px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+.c_tag{
+margin: 0;
+font-family: 'Ubuntu',sans-serif;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+}
+.c_title{
+	margin: 15px 0 25px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{ 
+	margin: 0;
+	line-height: 24px;
+}
+.mb_45{
+	margin-bottom: 45px;
+}
+/*weekend end*/ 
+
+/*blog start*/
+.blog{
+}
+.s_blog{
+	margin-top: 80px;
+	width: 47%;
+	box-sizing: border-box;
+	float: left;
+}
+.s_blog:nth-child(even){
+	margin-left: 60px;
+}
+.s_img{
+	margin-bottom: 20px;
+}
+.s_img img{
+	width: 100%;
+}
+/*blog end/
+/*newsletter start*/
+.n{
+	background-color: #f0f0f0;
+	margin-top: 70px;
+}
+.email{
+	text-align: center;
+}
+.email_h1{
+	margin-top: 0;
+	margin-bottom: 80px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #626262;
+}
+.email_form{
+	margin: 0 auto;
+	width: 400px;
+	position: relative;
+}
+.email_form input{
+	width: 400px;
+	height: 50px;
+	font-family: 'Playfair  Display', serif;
+    font-size: 14px;
+    color: #626262;
+    border: none;
+    border-bottom: 1px solid #626262;
+    background-color: transparent;
+}
+.email_form button{
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+/*newsletter end*/
+
+/* second blog start*/
+/* second blog end*/
+
+/* load more start */
+.load{
+
+}
+.container3{
+	margin: 160px 0;
+}
+.container3 button{
+	font-family: 'plafair-display',serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0 auto;
+	padding: 1px 35px;
+	display: block;
+	background: none;
+	color: #626262;
+	border: 1px solid #626262;
+	transition: 0.33s;
+}
+/* load more end */
+
+/* footer start */
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #f0f0f0;
+}
+.container4{
+	margin: 0 auto;
+	width: 80%;
+	height: 100px;
+}
+.menu2{
+	margin: 18px;
+	width: 50%;
+	float: left;
+}
+.menu2 ul li{
+	list-style: none;
+	float: left;
+}
+.menu2 ul li a{
+	margin: 0 60px;
+	color: #626262;
+	text-decoration: none;
+	transition: 0.33s;
+}
+.menu2 ul li a:first-child{
+	margin-left: 0;
+}
+.logo2{
+	margin-top: 15px;
+	width: 20%;
+	float: right;
+}
+.logo2 ul li{
+	float: left;
+	list-style: none;
+}
+.logo2 ul li a{
+	margin: 20px;
+	color: #626262;
+	text-decoration: none;
+	transition: 0.33s;
+}
+.logo2 img{
+	padding: 5px;
+}
+/* footer end */
